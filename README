@@ -1,0 +1,30 @@
+Case version 0.0.1
+==================
+
+This is a lightweight, pure-Perl implementation of dispatch tables
+for switch-like behavior. Unlike Switch, it does not introduce new
+syntax. Instead, you call a function with all your cases and actions,
+and get a dispatcher (coderef) back. You pass the terms you want to
+test to the dispatcher and it will take the appropriate action.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules
+
+  warnings
+  Carp
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2005 Roy Johnson
+
+This code is distributed under the same copyright terms as Perl itself.

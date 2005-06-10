@@ -1,0 +1,9 @@
+README
+Case.pm
+Makefile.PL
+Changes
+MANIFEST
+t/switch.t
+t/is_number.t
+t/smatch.t
+t.pl
